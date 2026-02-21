@@ -1,0 +1,95 @@
+/* Home section */
+#home {
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 120px; /* Navbar ke niche sirf 10px */
+  padding-bottom: 1px; /* Thoda space niche */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Home title */
+#home h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#home h1 span {
+  background: linear-gradient(90deg, #6a0dad, #9b30ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Role / Typing text */
+#home h3 {
+  font-size: 1.5rem;
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+#home h3 .cursor {
+  color: #6a0dad;
+}
+
+/* Description text */
+#home p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Buttons */
+#home .btn {
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+#home .btn:hover {
+  transform: translateY(-2px);
+}
+
+#home .btn-primary:hover {
+  background-color: #6a0dad;
+  border-color: #6a0dad;
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #home h3 {
+    font-size: 1.2rem;
+  }
+
+  #home p {
+    font-size: 1rem;
+  }
+
+  #home .btn {
+    width: 100%;
+  }
+}
+
+/* Tablet Responsive */
+@media (min-width: 768px) and (max-width: 991px) {
+  #home h1 {
+    font-size: 2.2rem;
+  }
+
+  #home h3 {
+    font-size: 1.3rem;
+  }
+
+  #home p {
+    font-size: 1.05rem;
+  }
+}

@@ -1,0 +1,139 @@
+/* -------------------- About Section -------------------- */
+.about-section {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 60px 15px;
+}
+
+/* Section Title */
+.about-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #6a0dad, #9b30ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Image container */
+.about-section .img-container {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6a0dad, #9b30ff);
+}
+
+.about-section .about-img {
+  width: 100%;
+  max-width: 250px; /* Desktop size */
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Text content */
+.about-section h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.about-section h3 span {
+  background: linear-gradient(90deg, #6a0dad, #9b30ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-section .content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* Button */
+.about-section .about-btn {
+  display: inline-block;
+  border-radius: 30px;
+  border: 2px solid #6a0dad;
+  color: #6a0dad;
+  padding: 8px 25px;
+  font-weight: 500;
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.about-section .about-btn:hover {
+  background: linear-gradient(90deg, #6a0dad, #9b30ff);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* -------------------- Responsive -------------------- */
+
+/* Mobile */
+@media (max-width: 767px) {
+  .about-section .row {
+    flex-direction: column; /* image on top, text below */
+    text-align: center;
+  }
+
+  .about-section .about-img {
+    max-width: 150px; /* smaller image on mobile */
+  }
+
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .about-section .content {
+    font-size: 1rem;
+  }
+
+  .about-section .about-btn {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-section .about-img {
+    max-width: 200px;
+  }
+
+  .about-section h2 {
+    font-size: 2.2rem;
+  }
+
+  .about-section h3 {
+    font-size: 1.4rem;
+  }
+
+  .about-section .content {
+    font-size: 1.05rem;
+  }
+
+  .about-section .about-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .about-section .about-img {
+    max-width: 250px;
+  }
+}

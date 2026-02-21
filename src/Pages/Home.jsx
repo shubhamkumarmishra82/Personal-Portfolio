@@ -4,6 +4,7 @@ import Project from "./Project";
 import Skill from "./Skill";
 import Contact from "./Contact";
 import Back from "../Component/Back";
+import "../Assets/Css/Home.css";
 
 export default function Home() {
   const texts = ["Full Stack Developer"];
@@ -38,106 +39,40 @@ export default function Home() {
 
   return (
     <>
-      <section
-        id="home"
-        className="d-flex align-items-center"
-        style={{
-          minHeight: "100vh",
-          backgroundColor: "#ffffff",
-          color: "#000000",
-        }}
-      >
-        <div className="container px-3 mt-5">
-          <div className="row align-items-center">
-            {/* Left Text */}
-            <div className="col-md-6 text-md-start text-center">
-              <h1
-                className="fw-bold text-wrap mt-5"
-                style={{ fontSize: "2.5rem" }}
-              >
-                Hi, I'm{" "}
-                <span
-                  style={{
-                    background: "linear-gradient(90deg, #6a0dad, #9b30ff)",
-                    WebkitBackgroundClip: "text",
-                    WebkitTextFillColor: "transparent",
-                    display: "inline-block",
-                  }}
-                >
-                  Shubham Mishra
-                </span>
-              </h1>
+      <section id="home" className="home-section d-flex align-items-center">
+        <div className="container text-center home-content">
+          <h1 className="home-title">
+            Hi, I'm{" "}
+            <span className="home-name">
+              Shubham Mishra
+            </span>
+          </h1>
 
-              <h3
-                className="mt-3 text-wrap"
-                style={{ color: "#4b0082", fontSize: "1.5rem" }}
-              >
-                {displayText}
-                <span className="ms-1" style={{ color: "#6a0dad" }}>
-                  |
-                </span>
-              </h3>
+          <h3 className="home-role">
+            {displayText}
+            <span className="home-cursor">|</span>
+          </h3>
 
-              <p className="mt-3" style={{ fontSize: "1.1rem" }}>
-                I build responsive and modern web applications using React,
-                Java, and Bootstrap.
-              </p>
+          <p className="home-description">
+            I build responsive and modern web applications using React , bootstrap and java .
+          </p>
 
-              <div className="mt-4 d-flex flex-column flex-sm-row justify-content-center justify-content-md-start gap-3">
-                <a
-                  href="#projects"
-                  className="btn"
-                  style={{
-                    backgroundColor: "#6a0dad",
-                    color: "white",
-                    borderRadius: "30px",
-                    padding: "10px 25px",
-                  }}
-                >
-                  View Projects
-                </a>
-                <a
-                  href="#contact"
-                  className="btn btn-outline-dark"
-                  style={{ borderRadius: "30px", padding: "10px 25px" }}
-                >
-                  Contact Me
-                </a>
-              </div>
-            </div>
-
-            {/* Right Image */}
-            <div className="col-md-6 text-center mt-5 mt-md-0">
-              <div
-                style={{
-                  display: "inline-block",
-                  padding: "10px",
-                  borderRadius: "50%",
-                  background: "linear-gradient(135deg, #6a0dad, #9b30ff)",
-                }}
-              >
-                <img
-                  src="/Images/rahul.png"
-                  alt="Profile"
-                  className="img-fluid rounded-circle shadow-lg"
-                  style={{
-                    maxWidth: "350px",
-                    width: "100%",
-                    height: "auto",
-                    objectFit: "cover",
-                  }}
-                />
-              </div>
-            </div>
+          <div className="home-buttons">
+            <a href="#projects" className="btn btn-home" style={{background: "linear-gradient(90deg, #6a0dad, #9b30ff)"}}>
+              View Projects
+            </a>
+            <a href="#contact" className="btn btn-outline-dark btn-home">
+              Contact Me
+            </a>
           </div>
         </div>
       </section>
 
       <About />
-      <Project/>
-      <Skill/>
-      <Contact/>
-      <Back/>
+      <Project />
+      <Skill />
+      <Contact />
+      <Back />
     </>
   );
 }
