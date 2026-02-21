@@ -1,23 +1,20 @@
-import React from "react";
-
-// Example project data
 const projectList = [
   {
     title: "ATM-Management-System",
     description: "The ATM Management System is a software application designed to simulate the functionalities of a real-world ATM. It allows users to perform banking operations securely and efficiently.",
-    img: "/Images/project1.png",
+    img: "/Images/atm.png",
     link: "#", 
   },
   {
     title: "College-Management-System",
     description: "The College Management System helps manage student and faculty info efficiently, featuring a dashboard to add/view details, manage leaves, and handle student fee submissions.",
-    img: "/Images/project2.png",
+    img: "/Images/college.png",
     link: "#",
   },
   {
     title: "News-App",
     description: "The News App delivers the latest news in categories like Crime, Education, Economy, Technology, Sports, and Cricket. It has a responsive navbar for easy navigation.",
-    img: "/Images/project3.png",
+    img: "/Images/news.png",
     link: "#",
   },
 ];

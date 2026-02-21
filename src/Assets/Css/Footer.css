@@ -1,0 +1,10 @@
+/* Social Media Icons */
+footer .fab {
+  transition: color 0.3s ease; /* smooth color transition */
+}
+
+/* Hover effect - change color to orange */
+footer .fab:hover {
+  color: orange;
+  transform: scale(1.2); /* optional: slightly enlarge on hover */
+}

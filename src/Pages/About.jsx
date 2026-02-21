@@ -28,7 +28,7 @@ export default function About() {
               I'm <span>Shubham Mishra</span>
             </h3>
             <p className="content">
-              I am a passionate Frontend Developer and Full Stack Developer,
+              I am a passionate Full Stack Developer,
               skilled in building responsive and interactive web applications
               using modern technologies like React, Java, and Bootstrap.
             </p>

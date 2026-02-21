@@ -1,5 +1,4 @@
-import React from "react";
-
+import "../Assets/Css/Footer.css"
 export default function Footer() {
   return (
     <footer
@@ -13,13 +12,14 @@ export default function Footer() {
         {/* Social Media Links */}
         <div className="mb-3">
           <a
+         
             href="https://github.com/yourusername"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-3 text-white fs-4"
             style={{ transition: "0.3s" }}
           >
-            <i className="fab fa-github"></i>
+            <i className="fab fa-github  "></i>
           </a>
           <a
             href="https://linkedin.com/in/yourusername"
@@ -37,7 +37,16 @@ export default function Footer() {
             className="mx-3 text-white fs-4"
             style={{ transition: "0.3s" }}
           >
-            <i className="fab fa-twitter"></i>
+            <i className="fab fa-facebook"></i>
+          </a>
+           <a
+            href="https://twitter.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-3 text-white fs-4"
+            style={{ transition: "0.3s" }}
+          >
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
 

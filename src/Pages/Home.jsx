@@ -7,7 +7,7 @@ import Back from "../Component/Back";
 import "../Assets/Css/Home.css";
 
 export default function Home() {
-  const texts = ["Full Stack Developer"];
+  const texts = ["Full Stack Developer"]
   const [displayText, setDisplayText] = useState("");
   const [index, setIndex] = useState(0);
   const [textIndex, setTextIndex] = useState(0);
