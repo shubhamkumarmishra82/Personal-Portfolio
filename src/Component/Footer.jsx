@@ -55,7 +55,7 @@ export default function Footer() {
         {/* Quick Links */}
         <div className="mb-2">
           <a
-            href="#"
+            href="#home"
             className="text-white text-decoration-none mx-2"
             style={{ transition: "0.3s" }}
           >
