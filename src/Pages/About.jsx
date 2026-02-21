@@ -15,7 +15,7 @@ export default function About() {
           <div className="col-md-5 text-center mb-4 mb-md-0">
             <div className="img-container">
               <img
-                src="/Images/rahul.png"
+                src="/Images/shubham.jpeg"
                 alt="About"
                 className="about-img"
               />
