@@ -1,0 +1,32 @@
+/* Custom toggle button */
+.custom-toggler {
+  border: 2px solid transparent; /* initial no border */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* White hamburger icon */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* On hover, show white border */
+.custom-toggler:hover {
+  border-color: white;
+}
+
+/* On focus, show white border */
+.custom-toggler:focus {
+  border-color: white;
+  box-shadow: none; /* remove default Bootstrap shadow */
+}
+
+/* On active (clicked) show white border */
+.custom-toggler:active {
+  border-color: white;
+}
+
+/* Optional: smooth transition */
+.custom-toggler {
+  transition: border-color 0.3s ease;
+}
