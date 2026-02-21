@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="mb-3">
           <a
          
-            href="https://github.com/yourusername"
+            href="https://github.com/shubhamkumarmishra82"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-3 text-white fs-4"
@@ -30,24 +30,26 @@ export default function Footer() {
           >
             <i className="fab fa-linkedin"></i>
           </a>
-          <a
-            href="https://twitter.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-3 text-white fs-4"
-            style={{ transition: "0.3s" }}
-          >
-            <i className="fab fa-facebook"></i>
-          </a>
+        <a
+  href="https://www.facebook.com/ShubhamKumar.847210"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mx-3 text-white fs-4"
+  style={{ transition: "0.3s" }}
+>
+  <i className="fab fa-facebook"></i>
+</a>
+         
            <a
-            href="https://twitter.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mx-3 text-white fs-4"
-            style={{ transition: "0.3s" }}
-          >
-            <i className="fab fa-instagram"></i>
-          </a>
+  href="https://www.instagram.com/mishra_shubh17"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mx-3 text-white fs-4"
+  style={{ transition: "0.3s" }}
+>
+  <i className="fab fa-instagram"></i>
+</a>
+       
         </div>
 
         {/* Quick Links */}
